@@ -35,6 +35,7 @@ public class Main {
      * @since 1.1
      */
     public static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
+        System.out.println("Se va a realizar una retirada: \n");
         try {
             cuenta1.retirar(2300);
         } catch (Exception e) {
